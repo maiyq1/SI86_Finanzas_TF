@@ -1,0 +1,53 @@
+h1, h2, h4, li {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(47, 15, 55);
+}
+
+p {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(47, 15, 55);
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+.formularios {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 0.5fr 0.5fr;
+    padding-top: 4%;
+}
+
+.support-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    width: 17vh;
+    background: rgb(136, 188, 36) !important;
+    height: 40px !important;
+}
+
+.faq {
+    margin-left: 2rem;
+}
+
+.faq h4, li {
+    color: #8DBF2D;
+}
+
+.faq p {
+    font-size: 18px;
+    padding: 10px;
+}
